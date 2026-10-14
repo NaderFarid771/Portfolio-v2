@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Nader Farid Habib — beginner frontend developer building clean, responsive websites with HTML and CSS.">
+  <title>Nader Farid Habib | Frontend Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <div class="layout-container">
+    <aside class="sidebar">
+      <div class="profile-area">
+        <div class="profile-avatar">
+          <img src="Nader.png" alt="Nader Farid">
+        </div>
+        <h2 class="profile-name">Nader Farid</h2>
+        <p class="profile-title">Aspiring Frontend Developer</p>
+      </div>
+      <nav class="sidebar-nav" aria-label="Main navigation">
+        <a href="#portfolio" class="nav-item active">Projects</a>
+        <a href="#about" class="nav-item">About Me</a>
+        <a href="#services" class="nav-item">Services</a>
+        <a href="#contact" class="nav-item">Contact</a>
+      </nav>
+      <div class="sidebar-social">
+        <p>Connect with me</p>
+        <div class="social-icons">
+          <a href="tel:+201023415384" class="social-btn" title="Call Nader" aria-label="Call Nader"><i
+              class="fas fa-phone"></i></a>
+          <a href="https://wa.me/201023415384" target="_blank" rel="noopener noreferrer" class="social-btn"
+            title="WhatsApp" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.linkedin.com/in/nader-farid-3579b72b9/" target="_blank" rel="noopener noreferrer"
+            class="social-btn" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <section id="portfolio" class="section">
+        <p class="eyebrow">MY WORK</p>
+        <h1 class="main-heading">Projects I've Built</h1>
+        <p class="section-intro">A selection of practice projects where I apply my HTML and CSS skills and keep learning
+          frontend development.</p>
+        <div class="portfolio-grid">
+          <article class="portfolio-card">
+            <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=900&auto=format&fit=crop&q=80"
+              alt="Website displayed on a laptop" class="card-img" loading="lazy">
+            <div class="card-body">
+              <span class="project-type">HTML · CSS</span>
+              <h3>Personal Portfolio</h3>
+              <p>A personal website introducing me, highlighting my current skills, and providing ways to contact me.
+                Designed to adapt to different screen sizes.</p>
+            </div>
+          </article>
+          <article class="portfolio-card">
+            <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=900&auto=format&fit=crop&q=80"
+              alt="Workspace with a website open on a computer" class="card-img" loading="lazy">
+            <div class="card-body">
+              <span class="project-type">HTML · CSS</span>
+              <h3>Landing Page</h3>
+              <p>A landing page built with HTML and CSS, focusing on page structure, visual hierarchy, spacing, and
+                responsive layout.</p>
+              <p class="small-note">The landing page files can be added to this portfolio repository as a separate
+                project.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="section section-divider">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2 class="sub-heading">About Me</h2>
+        <p class="about-desc">Hello! I'm Nader, a Computer Science student at the Faculty of Science, Beni-Suef
+          University. I'm learning frontend web development and enjoy building clean, responsive pages with HTML and
+          CSS. I'm currently strengthening my JavaScript fundamentals and learning through practice projects.</p>
+        <h3 class="skills-title">Skills & Tools</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">HTML5</span><span class="skill-tag">CSS3</span>
+          <span class="skill-tag">Responsive Design</span><span class="skill-tag">JavaScript Fundamentals</span>
+          <span class="skill-tag">Git & GitHub</span>
+        </div>
+      </section>
+
+      <section id="services" class="section section-divider">
+        <p class="eyebrow">HOW I CAN HELP</p>
+        <h2 class="sub-heading">Services</h2>
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+            <h3>Responsive Web Pages</h3>
+            <p>Building simple web pages with HTML and CSS that adapt to mobile, tablet, and desktop screens.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon"><i class="fas fa-layer-group"></i></div>
+            <h3>Landing Page Layouts</h3>
+            <p>Creating clear page sections with consistent spacing, typography, and visual hierarchy.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon"><i class="fas fa-wrench"></i></div>
+            <h3>Basic HTML/CSS Fixes</h3>
+            <p>Helping fix simple layout, styling, and responsiveness issues in existing pages.</p>
+          </article>
+        </div>
+        <p class="small-note service-note">I’m building my experience, so I take on projects that match my current
+          skills and scope.</p>
+      </section>
+
+      <section id="contact" class="section section-divider">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2 class="sub-heading">Get in Touch</h2>
+        <p class="section-intro">Have a small website or landing page in mind? Contact me and tell me what you need.</p>
+        <div class="contact-cards">
+          <a href="mailto:naderfaridhabib@gmail.com" class="contact-box">
+            <div class="box-icon"><i class="fas fa-envelope"></i></div>
+            <h4>Email</h4>
+            <p>naderfaridhabib@gmail.com</p>
+          </a>
+          <a href="https://wa.me/201023415384" target="_blank" rel="noopener noreferrer" class="contact-box">
+            <div class="box-icon"><i class="fab fa-whatsapp"></i></div>
+            <h4>WhatsApp</h4>
+            <p>Send me a message</p>
+          </a>
+          <a href="https://www.linkedin.com/in/nader-farid-3579b72b9/" target="_blank" rel="noopener noreferrer"
+            class="contact-box">
+            <div class="box-icon"><i class="fab fa-linkedin-in"></i></div>
+            <h4>LinkedIn</h4>
+            <p>Connect with me</p>
+          </a>
+        </div>
+        <p class="location-note"><i class="fas fa-location-dot"></i> Beni Suef, Egypt</p>
+      </section>
+
+      <footer class="footer">
+        <p>Computer Science student learning and building with HTML, CSS, and JavaScript.</p>
+        <div class="footer-bottom">
+          <p>© <span id="current-year">2026</span> Nader Farid Habib. Built with HTML, CSS & JavaScript.</p>
+        </div>
+      </footer>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
