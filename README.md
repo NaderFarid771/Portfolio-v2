@@ -1,16 +1,42 @@
-NADER FARID HABIB — PORTFOLIO
+# Personal Portfolio
 
-Files:
-- index.html: portfolio content and sections
-- style.css: layout, colors, and responsive styling
-- script.js: small JavaScript interactions (navigation active state and current year)
+A responsive personal portfolio website built with HTML and CSS, with a small JavaScript enhancement for navigation and the current year.
 
-Before publishing:
-1. Put index.html, style.css, and script.js in the root of your GitHub repository.
-2. Add your landing page project files in a folder such as landing-page/ if you want visitors to open them from this portfolio.
-3. The portfolio currently describes the landing page but does not link to it yet because its file path was not provided.
-4. The profile uses an initials avatar, so no Nader.png file is required. You can replace it with your own image later.
-5. Contact buttons open email, WhatsApp, and LinkedIn. There is no fake contact form that claims to send messages.
-6. Skills and services are phrased for a beginner level. Keep them only if they accurately describe what you can do.
+## Features
+- Responsive layout for desktop, tablet, and mobile
+- Personal introduction and skills section
+- Projects section for showcasing work
+- Services section
+- Navigation highlighting
+- Automatically updated copyright year
 
-The Font Awesome icons and project photos load from external websites, so they need an internet connection.
+## Built With
+- HTML5
+- CSS3
+- JavaScript
+
+## Projects
+### Personal Portfolio
+This website presents my profile, skills, and selected projects.
+
+### Landing Page
+A separate landing page project can be added in the `landing-page/` folder and linked from the projects section.
+
+### Product Page
+A practice project for presenting products with images, prices, and short descriptions.
+
+> Note: Add only projects that you have actually built. Replace this section with screenshots and links to the finished projects when they are ready.
+
+## Run Locally
+1. Download or clone this repository.
+2. Open `index.html` in your browser.
+
+## Deploy with GitHub Pages
+1. Push the project to a GitHub repository.
+2. Open **Settings → Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Select the `main` branch and the `/ (root)` folder.
+5. Save and wait for GitHub Pages to publish the site.
+
+## Contact
+Add your preferred professional contact links to the website.
